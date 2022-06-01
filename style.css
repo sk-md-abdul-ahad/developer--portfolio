@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.link-button{   
+    text-decoration: none;
+    background-image: linear-gradient(orange,black);
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.propic{
+    display: inline-block;
+    width: 20%;
+}
+.headtext{
+    display: inline-block;
+    padding: 10px;
+}
+.propic > img{
+    border-radius: 50%;
+    display: inline;
+    float: left;
+}
+.div-clear{
+    clear: both;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border: 10px solid;
+    color: blueviolet;   
+    
+}
+.web-deb-experience{
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+}
+footer p{
+    text-align: center;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    padding: 10px;
+}
+
